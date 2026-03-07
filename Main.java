@@ -13,9 +13,9 @@ public class Main {
     Scanner scanner = new Scanner(System.in);
 
     // On ajoute des données de test pour ne pas avoir une liste vide
-    bibliotheque.ajouterDocument(new Livre("Apprendre Java de A a Z", 2026, "John Doe"));
-    bibliotheque.ajouterDocument(new Revue("Science & Vie", 2023, 1250));
-    bibliotheque.ajouterDocument(new Livre("Programmation Orientée Objet", 2022, "Jean-Michel"));
+    bibliotheque.ajouterDocument(new Livre("Apprendre Java pour débutants", 2026, "John Doe"));
+    bibliotheque.ajouterDocument(new Revue("Science et Vie", 2023, 1250));
+    bibliotheque.ajouterDocument(new Livre("Les bases de la programmation", 2022, "Jean-Michel"));
     bibliotheque.ajouterDocument(new Revue("L'Express", 2024, 1300));
     bibliotheque.ajouterUtilisateur(new Etudiant("Luc"));
     bibliotheque.ajouterUtilisateur(new Etudiant("Matthieu"));
